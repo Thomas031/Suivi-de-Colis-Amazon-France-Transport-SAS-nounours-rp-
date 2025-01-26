@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suivi de Colis - Amazon France Transport SAS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Suivi de Colis</h1>
+    <p>Amazon France Transport SAS</p>
+  </header>
+  
+  <main>
+    <section id="tracking-form">
+      <h2>Entrez votre numéro de suivi</h2>
+      <input type="text" id="trackingNumber" placeholder="Ex : AMZ123456789" />
+      <button id="trackButton">Suivre</button>
+      <p id="errorMessage" class="error"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Amazon France Transport SAS</p>
+  </footer>
+
+  <script>
+    document.getElementById("trackButton").addEventListener("click", function () {
+      const trackingNumber = document.getElementById("trackingNumber").value.trim();
+
+      if (!trackingNumber) {
+        document.getElementById("errorMessage").textContent =
+          "Veuillez entrer un numéro de suivi valide.";
+        return;
+      }
+
+      // Rediriger vers la page dédiée
+      window.location.href = `${trackingNumber}.html`;
+    });
+  </script>
+</body>
+</html>
