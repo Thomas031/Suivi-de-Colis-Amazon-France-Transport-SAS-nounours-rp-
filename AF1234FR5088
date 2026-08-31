@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suivi de Colis - Numéro AF1234FR5088</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><strong>Suivi de Colis</strong> <em>Pro</em></h1>
+    <p>Amazon France Transport SAS</p>
+  </header>
+  
+  <main>
+    <section id="trackingDetails">
+      <h2>Détails du suivi - Colis AF1234FR5088</h2>
+      <p><strong>Numéro de suivi :</strong> AF1234FR5088</p>
+      <p><strong>Statut :</strong> Transit</p>
+      <p><strong>Localisation actuelle :</strong> Votre colis transite sur nos plateformes logistiques.</p>
+      <p><strong>Livraison prévue :</strong> ...</p>
+      <p><strong>Fabriqué par :</strong> Amazon France Est</p>
+
+      <h3>Historique :</h3>
+      <ul>
+        <li>31 aout 2025 - Votre colis sera livré entre 22h et 22h30.</li>
+        <li>31 aout 2025 - Votre colis a été expédié.</li>
+        <li>30 aout 2025 - Votre colis transite sur nos plateformes logistiques.</li>
+        <li>29 aout 2025 - Votre colis transite sur les plateformes logistiques de nos fabricant.</li>
+        <li>25 aout 2025 - Votre commande a bien été reçue.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Amazon France Transport SAS</p>
+  </footer>
+</body>
+</html>
